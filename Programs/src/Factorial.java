@@ -5,6 +5,8 @@ public class Factorial {
 	public static int recursion(int n1){	
 		if(n1<=2){
 			return n1;
+			//changes
+		    //changes are made as expected
 		}
 		
 		n1=n1*recursion(n1-1);
